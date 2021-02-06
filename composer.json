@@ -1,0 +1,21 @@
+{
+  "name": "TrTool/Report",
+  "description": "The package consists to create a report and generate its by costumers builders type files",
+  "keywords": ["Report", "Generator", "Configuration"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philippe Lam",
+      "email": "philippe.lam.ny@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+	"phpoffice/phpexcel": "1.8.*"
+  },
+  "autoload": {
+      "psr-4": {
+        "TrTool\\Report\\Src\\": "./src"
+      }
+  }
+}
